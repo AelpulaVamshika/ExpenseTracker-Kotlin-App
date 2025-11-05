@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9FAFB"
+    tools:context=".AddExpenseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/textViewAddExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_expense_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="24dp" />
+
+        <EditText
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/hint_expense_title"
+            android:inputType="text"
+            android:autofillHints="name"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/editTextAmount"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/hint_expense_amount"
+            android:inputType="numberDecimal"
+            android:autofillHints="creditCardNumber"
+            android:padding="12dp"
+            android:layout_marginBottom="20dp" />
+
+        <EditText
+            android:id="@+id/editTextCategory"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:hint="@string/hint_expense_category"
+            android:inputType="text"
+            android:autofillHints="username"
+            android:padding="12dp"
+            android:layout_marginBottom="28dp" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="56dp"
+            android:minWidth="180dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/btn_save"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:paddingHorizontal="24dp"
+            android:paddingVertical="12dp" />
+
+    </LinearLayout>
+</ScrollView>

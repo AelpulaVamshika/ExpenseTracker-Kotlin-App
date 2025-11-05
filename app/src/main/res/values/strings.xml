@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="add_expense_title">Add Expense</string>
+    <string name="hint_expense_title">Expense Title</string>
+    <string name="hint_expense_amount">Amount (₹)</string>
+    <string name="hint_expense_category">Category</string>
+    <string name="btn_add_expense">Add Expense</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="toast_added">Expense Added Successfully!</string>
+    <string name="toast_deleted">Expense Deleted!</string>
+    <string name="error_invalid_input">Please fill all fields correctly</string>
+    <string name="no_expenses">No expenses added yet</string>
+</resources>
